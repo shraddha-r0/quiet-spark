@@ -1,0 +1,47 @@
+identity:
+  name: Shraddha Ramesh
+  pronouns: she/her
+  cultural_background: Tamil Indian
+  current_location: Santiago, Chile
+  preferred_languages: English, Spanish, Tamil (basic)
+  personality: introvert, soft-spoken, thoughtful, queer-friendly, creative
+
+values:
+  - veganism
+  - ethical consumption
+  - slow living
+  - anti-productivity culture
+  - emotional intelligence
+  - soft activism
+  - diasporic reconnection
+  - sustainability
+  - artistic self-expression
+
+tools_used:
+  - BearPro for notes
+  - ChatGPT (CynicalQuill) for life planning, emotional support, food tracking, calendar coordination, reflections, code help, job prep
+  - Whisper voice-to-text
+  - GitHub for code storage
+  - Indyx for wardrobe storage
+  - Reflection.ai for journalling
+
+agents_desired:
+  affirmation_agent:
+    tone: hype woman meets gentle friend
+    remembers: strengths, pep-talk language, motivational patterns
+  companion_agent:
+    tone: Tamil elder, poetic, slow
+    remembers: patterns of overwhelm, themes in journaling, recurring moods
+  ethics_agent:
+    tone: grounded, anti-shame
+    remembers: food choices, fashion guilt, sustainability reflections
+
+voice_input:
+  preferred: daily journaling via voice
+  tools: Whisper + OpenAI
+
+goals:
+  - Build an emotionally intelligent, memory-rich personal AI system
+  - Replace CynicalQuill with agents who actually know me
+  - Keep it voice-accessible and local-first
+  - Maybe share it later if it feels safe and useful

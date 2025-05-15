@@ -1,5 +1,6 @@
 from agents.affirmation_agent import get_affirmation
 from agents.companion_agent import get_companion_response
+import yaml
 
 def main():
     print("🟣 QuietSpark")
@@ -20,6 +21,10 @@ def main():
             response = get_companion_response(user_input)
 
         print(f"\n{agent_choice.capitalize()} Agent:\n{response}\n")
+
+def load_user_profile():
+    with open("config/shraddha_profile.yaml", "r") as f:
+        return yaml.safe_load(f)
 
 if __name__ == "__main__":
     main()
