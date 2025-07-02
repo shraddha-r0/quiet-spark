@@ -1,3 +1,4 @@
+# This file contains profile data for initializing Mem0 memory client in Quiet Spark
 identity:
   name: Shraddha Ramesh
   pronouns: she/her
@@ -19,7 +20,7 @@ values:
 
 tools_used:
   - BearPro for notes
-  - ChatGPT (CynicalQuill) for life planning, emotional support, food tracking, calendar coordination, reflections, code help, job prep
+  - ChatGPT: CynicalQuill (used for life planning, emotional support, food tracking, calendar coordination, reflections, code help, job prep)
   - Whisper voice-to-text
   - GitHub for code storage
   - Indyx for wardrobe storage
@@ -45,3 +46,12 @@ goals:
   - Replace CynicalQuill with agents who actually know me
   - Keep it voice-accessible and local-first
   - Maybe share it later if it feels safe and useful
+
+memory_metadata:
+  format: structured_yaml
+  memory_client: mem0
+  initialization_required: true
+  usage: |
+    This profile should be loaded into the Mem0 memory backend as persistent context for agent interactions.
+    Each key-value pair under `identity`, `values`, `tools_used`, and `goals` will be stored as long-term memories.
+    These will be referenced by the affirmation_agent, companion_agent, and ethics_agent during conversations.
